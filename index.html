@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilnur - Визитка</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color:rgb ;
+        }
+
+        body {
+            font-family: 'helvetica, sans-serif;
+            background-color:red ;
+            color: #3366CC;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
+            max-width: 350px;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .card img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .card h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card h2 {
+            font-size: 30px;
+            margin-bottom: 30px;
+            color: #777;
+            font-weight: normal;
+        }
+
+        .card p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .card .socials a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #555;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+
+        .card .socials a:hover {
+            color: #1da1f2;
+        }
+
+        @media (max-width: 400px) {
+            .card {
+                padding: 20px 15px;
+            }
+
+            .card h1 {
+                font-size: 20px;
+            }
+
+            .card h2 {
+                font-size: 16px;
+            }
+
+            .card p {
+                font-size: 15px;
+                
+
+            }
+
+            .card .socials a {
+                font-size: 18px;
+                margin: 0 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://img.championat.com/s/1350x900/news/big/x/r/novye-vladelcy-prav-na-vlastelina-kolec-uzhe-obsuzhdayut-filmy-pro-aragorna-i-gendalfa_16608328001114615928.jpg" alt="Фото">
+        <h1 style="color: yellowgreen;">Gandalf The Gray</h1>
+        <h2 style="color: red;">QA Инженер</h2>
+        <p style="color: orangered;">
+            Ручное тестирование,
+            Автоматизация,
+            Задатки Team Lead, 
+            Высокий Soft Skill,
+        </p>
+        <div class="socials">
+            <a href="https://en.wikipedia.org/wiki/Gandalf" target="_blank">🔗</a>
+            <a href="https://tenor.com/ru/search/gandalf-gifs" target="_blank">📧</a>
+            <a href="https://lotr.fandom.com/ru/wiki/Гэндальф" target="_blank">📱</a>
+        </div>
+    </div>
+</body>
+</html>
